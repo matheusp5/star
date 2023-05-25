@@ -37,9 +37,3 @@ class MainService():
         response = requests.post(url, headers=headers, json=data)
         resultado = response.json()
         return resultado['choices'][0]['text']
-
-
-
-
-
-
